@@ -1,9 +1,9 @@
-pipeline {
-   agent: any
+Pipeline {
+   agent any
    stages {
       stage ('Hello World Pipeline') {
         steps {
-          echo : 'Hello World! using SCM Pipeline'
+          echo 'Hello World! using SCM Pipeline'
         }
       }
    }
